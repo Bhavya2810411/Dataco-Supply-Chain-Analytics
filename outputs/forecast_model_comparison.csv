@@ -1,0 +1,4 @@
+model,MAE
+Naive baseline,72.0
+"ARIMA(2,1,2)",66.22892781573641
+XGBoost (lags),68.2708511352539

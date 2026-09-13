@@ -1,9 +1,6 @@
 """
 01_eda.py — Exploratory Data Analysis for the DataCo Smart Supply Chain dataset.
 
-Run this file as a script, or in VS Code with the Python extension using the
-`# %%` cell markers (Shift+Enter to run cell by cell, Jupyter-style).
-
 Goals:
 1. Load the data safely (it ships in latin1 encoding, not UTF-8)
 2. Get a first read on shape, missing values, and column types
@@ -12,7 +9,6 @@ Goals:
 5. Save a lightly cleaned version for the next steps
 """
 
-# %% Imports
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -21,7 +17,6 @@ import seaborn as sns
 pd.set_option("display.max_columns", 60)
 sns.set_style("whitegrid")
 
-# %% Load data
 # The DataCo CSV is encoded in latin1 / ISO-8859-1, not UTF-8 — reading it as
 # UTF-8 will throw a UnicodeDecodeError partway through the file.
 from pathlib import Path
