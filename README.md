@@ -1,23 +1,33 @@
-# Supply Chain Analytics: Late Delivery Risk, Demand Forecasting & Profitability
+Supply Chain Analytics: Late Delivery Risk, Demand Forecasting & Profitability
 
+<<<<<<< HEAD
 End-to-end analytics project on the **DataCo Smart Supply Chain Dataset** (180,519 orders), covering four
 connected problems that mirror how real supply chain teams operate: predicting delivery risk, forecasting
 demand, finding where profit quietly leaks out, and testing a sustainability-driven shipping trade-off.
 
 **Live dashboard:** [your-app-name.streamlit.app](https://your-app-name.streamlit.app) *(update once deployed)*
+=======
+End-to-end analytics project on the DataCo Smart Supply Chain Dataset (180,519 orders), covering four connected problems that mirror how real supply chain teams operate: predicting delivery risk, forecasting demand, finding where profit quietly leaks out, and testing a sustainability-driven shipping trade-off.
+>>>>>>> 28e0e639c13d0199e5ee8fc30a5913b1d8e2ec49
 
-## Problem
+Live dashboard: your-app-name.streamlit.app (update once deployed)
+
+Problem
 
 Supply chains lose money in three predictable ways:
-1. **Late deliveries** erode customer trust and violate SLAs
-2. **Poor demand forecasting** causes stockouts or excess inventory
-3. **Unprofitable order patterns** (discounting, shipping mode choices) quietly erode margin
 
+<<<<<<< HEAD
 This project builds a model or analysis for each, plus a sustainability angle, and ties every finding
 back to a concrete, quantified business recommendation rather than stopping at a metric.
+=======
+Late deliveries erode customer trust and violate SLAs
+Poor demand forecasting causes stockouts or excess inventory
+Unprofitable order patterns (discounting, shipping mode choices) quietly erode margin
+>>>>>>> 28e0e639c13d0199e5ee8fc30a5913b1d8e2ec49
 
-## Data
+This project builds a model or analysis for each, plus a sustainability angle, and ties every finding back to a concrete, quantified business recommendation rather than stopping at a metric.
 
+<<<<<<< HEAD
 - Source: [DataCo Smart Supply Chain Dataset](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis) (public, Kaggle)
 - 180,519 orders, Jan 2015–Jan 2018, across 23 regions, 4 shipping modes, and 3 customer segments
 - Fields include order/shipping dates (scheduled vs. actual), shipping mode, region, category, sales,
@@ -96,3 +106,11 @@ of the four analyses.
 - [x] REPORT.md filled in with real results
 - [x] Streamlit dashboard built
 - [ ] Deployed to Streamlit Community Cloud (update the live link above once done)
+=======
+Data
+Source: DataCo Smart Supply Chain Dataset (public, Kaggle)
+180,519 orders, Jan 2015–Jan 2018, across 23 regions, 4 shipping modes, and 3 customer segments
+Fields include order/shipping dates (scheduled vs. actual), shipping mode, region, category, sales, discount, profit ratio, and delivery status
+
+Download the dataset from Kaggle and place the CSV at data/DataCoSupplyChainDataset.csv. See data/README.md for details. Not required to run the dashboard — only to regenerate the analysis.
+>>>>>>> 28e0e639c13d0199e5ee8fc30a5913b1d8e2ec49
